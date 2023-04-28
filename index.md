@@ -25,7 +25,7 @@
 ---
 ### Research Tools
 
-- [Dynamic AOIs: Automatic areas of interest for eye-tracking research]()
+- [Dynamic AOIs: Automatic areas of interest for eye-tracking research](https://onlinelibrary.wiley.com/doi/10.1111/infa.12426)
 
 ---
 <p style="font-size:11px">
