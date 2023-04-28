@@ -9,19 +9,17 @@
 <img src="/images/FDdata_ByGroup.jpg?raw=true" width="100%" height="100%"/>
 
 ---
-[Mapping NHS Trust data to local authority level]()
-
----
 [UK regional difference maps]()
 
 ---
-[NHS web scraping tool]()
+[NHS web scraping tool](https://github.com/JonnyP1990/dtoc)
 
 ---
+[Mapping NHS Trust data to local authority level]()
 
 ### Machine Learning
 
-- [Covid-19 conspiracy tweet generator]()
+- [Covid-19 conspiracy tweet generator](https://github.com/JonnyP1990/TwitterConspiracy)
 - [Classic Rock Jukebox]()
 
 ---
