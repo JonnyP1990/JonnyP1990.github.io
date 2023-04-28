@@ -13,11 +13,13 @@
 <img src="/images/IMDscore.jpg?raw=true" width="80%" height="80%"/>
 
 [NHS web scraping tool](https://github.com/JonnyP1990/dtoc)
+
 [Mapping NHS Trust data to local authority level]()
 
 ### Machine Learning
 
 [Covid-19 conspiracy tweet generator](https://github.com/JonnyP1990/TwitterConspiracy)
+
 [Classic Rock Jukebox]()
 
 ### Research Tools
