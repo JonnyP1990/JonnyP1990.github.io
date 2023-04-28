@@ -5,7 +5,7 @@
 ### Healthcare Analytics
 
 [Adult social care 'Front Door']()
-<img src="FDdata_ByGroup.jpg?raw=true"/>
+<img src="FDdata_ByGroup.jpg"?raw=true"/>
 
 ---
 [Mapping NHS Trust data to local authority level]()
