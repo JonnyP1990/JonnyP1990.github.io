@@ -7,12 +7,12 @@
 [Adult social care 'Front Door'](https://github.com/JonnyP1990/FrontDoor)
 
 <img src="/images/FDdata_ByGroup.jpg?raw=true" width="100%" height="100%"/>
-
+&nbsp;
 
 [UK regional difference maps](https://github.com/JonnyP1990/dtoc)
 
 <img src="/images/IMDscore.jpg?raw=true" width="80%" height="80%"/>
-
+m&nbsp;
 
 [NHS web scraping tool](https://github.com/JonnyP1990/dtoc)
 
