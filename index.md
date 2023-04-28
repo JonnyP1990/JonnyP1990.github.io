@@ -6,7 +6,7 @@
 
 [Adult social care 'Front Door']()
 
-<img src="/images/FDdata_ByGroup.jpg?raw=true" width="600" height="400"/>
+<img src="/images/FDdata_ByGroup.jpg?raw=true" width="800" height="500"/>
 
 ---
 [Mapping NHS Trust data to local authority level]()
