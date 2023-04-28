@@ -10,6 +10,8 @@
 
 - [UK regional difference maps]()
 
+<img src="/images/IMDscore.jpg?raw=true" width="100%" height="100%"/>
+
 - [NHS web scraping tool](https://github.com/JonnyP1990/dtoc)
 
 - [Mapping NHS Trust data to local authority level]()
