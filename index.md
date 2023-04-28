@@ -5,6 +5,7 @@
 ### Healthcare Analytics
 
 [Adult social care 'Front Door']()
+
 <img src="/images/FDdata_ByGroup.jpg?raw=true"/>
 
 ---
