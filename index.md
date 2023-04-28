@@ -4,25 +4,21 @@
 
 ### Healthcare Analytics
 
-[Adult social care 'Front Door']()
+- [Adult social care 'Front Door']()
 
 <img src="/images/FDdata_ByGroup.jpg?raw=true" width="100%" height="100%"/>
 
----
-[UK regional difference maps]()
+- [UK regional difference maps]()
 
----
-[NHS web scraping tool](https://github.com/JonnyP1990/dtoc)
+- [NHS web scraping tool](https://github.com/JonnyP1990/dtoc)
 
----
-[Mapping NHS Trust data to local authority level]()
+- [Mapping NHS Trust data to local authority level]()
 
 ### Machine Learning
 
 - [Covid-19 conspiracy tweet generator](https://github.com/JonnyP1990/TwitterConspiracy)
 - [Classic Rock Jukebox]()
 
----
 ### Research Tools
 
 - [Dynamic AOIs: Automatic areas of interest for eye-tracking research](https://onlinelibrary.wiley.com/doi/10.1111/infa.12426)
