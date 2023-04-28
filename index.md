@@ -6,11 +6,11 @@
 
 [Adult social care 'Front Door'](https://github.com/JonnyP1990/FrontDoor)
 
-<img src="/images/FDdata_ByGroup.jpg?raw=true" width="75%" height="75%"/>
+<img src="/images/FDdata_ByGroup.jpg?raw=true" width="100%" height="100%"/>
 
 [UK regional difference maps](https://github.com/JonnyP1990/dtoc)
 
-<img src="/images/IMDscore.jpg?raw=true" width="75%" height="75%"/>
+<img src="/images/IMDscore.jpg?raw=true" width="80%" height="80%"/>
 
 [NHS web scraping tool](https://github.com/JonnyP1990/dtoc)
 [Mapping NHS Trust data to local authority level]()
