@@ -12,11 +12,13 @@
 [UK regional difference maps](https://github.com/JonnyP1990/dtoc)
 
 <img src="/images/IMDscore.jpg?raw=true" width="80%" height="80%"/>
-m&nbsp;
+&nbsp;
 
 [NHS web scraping tool](https://github.com/JonnyP1990/dtoc)
+&nbsp;
 
 [Mapping NHS Trust data to local authority level]()
+&nbsp;
 
 ---
 
