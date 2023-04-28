@@ -16,11 +16,15 @@
 
 [Mapping NHS Trust data to local authority level]()
 
+---
+
 ### Machine Learning
 
 [Covid-19 conspiracy tweet generator](https://github.com/JonnyP1990/TwitterConspiracy)
 
 [Classic Rock Jukebox]()
+
+---
 
 ### Research Tools
 
