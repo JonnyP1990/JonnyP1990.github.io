@@ -25,7 +25,7 @@
 ### Machine Learning
 
 [Covid-19 conspiracy tweet generator](https://github.com/JonnyP1990/TwitterConspiracy)
-<br><br>
+<br>
 
 [Classic Rock Jukebox]()
 <br><br>
