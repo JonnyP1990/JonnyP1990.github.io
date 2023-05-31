@@ -37,5 +37,8 @@
 [Dynamic AOIs: Automatic areas of interest for eye-tracking research](https://onlinelibrary.wiley.com/doi/10.1111/infa.12426)
 <br><br>
 
+[Voronoi mosaics: convert images into mosaics](https://www.mathworks.com/matlabcentral/fileexchange/130299-im2voronoi)
+<br><br>
+
 ---
 <p style="font-size:12px">
