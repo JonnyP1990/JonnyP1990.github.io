@@ -9,7 +9,7 @@ layout: default
 
   <div class="hero__intro">
     <h1 class="hero__name">{{ site.name }}</h1>
-    <p class="hero__role">{{ site.position }}{% if site.affiliation %} &middot; {{ site.affiliation }}{% endif %}</p>
+    <p class="hero__role">{{ site.position }}{% if site.affiliation %} &middot; {% if site.affiliation_url %}<a href="{{ site.affiliation_url }}" target="_blank" rel="noopener">{{ site.affiliation }}</a>{% else %}{{ site.affiliation }}{% endif %}{% endif %}</p>
 
     <nav class="social" aria-label="Profile links">
       {% if site.email %}<a href="mailto:{{ site.email }}" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>{% endif %}
