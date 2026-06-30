@@ -1,0 +1,235 @@
+/* ------------------------------------------------------------------ *
+ *  Jonathan E. Prunty — personal site
+ *  Edit the variables below to recolour the whole site.
+ * ------------------------------------------------------------------ */
+
+:root {
+  --bg:        #ffffff;
+  --surface:   #f6f7f9;
+  --text:      #1a1c20;
+  --muted:     #5c6470;
+  --border:    #e6e8ec;
+  --accent:    #2f6fed;
+  --accent-soft: rgba(47, 111, 237, 0.10);
+  --shadow:    0 1px 2px rgba(16, 24, 40, .04), 0 8px 24px rgba(16, 24, 40, .06);
+  --maxw:      760px;
+  --radius:    14px;
+}
+
+html.dark {
+  --bg:        #0f1115;
+  --surface:   #171a21;
+  --text:      #e7e9ee;
+  --muted:     #9aa3b2;
+  --border:    #262b35;
+  --accent:    #6ea0ff;
+  --accent-soft: rgba(110, 160, 255, 0.14);
+  --shadow:    0 1px 2px rgba(0, 0, 0, .3), 0 10px 30px rgba(0, 0, 0, .35);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color .25s ease, color .25s ease;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.wrapper {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 64px 24px 96px;
+}
+
+/* ---- Theme toggle -------------------------------------------------- */
+.theme-toggle {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: var(--shadow);
+  transition: transform .15s ease, background-color .25s ease;
+  z-index: 10;
+}
+.theme-toggle:hover { transform: translateY(-2px); }
+
+/* ---- Hero ---------------------------------------------------------- */
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-bottom: 56px;
+}
+.hero__photo {
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--bg);
+  box-shadow: var(--shadow);
+  flex-shrink: 0;
+}
+.hero__name {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 2.1rem;
+  font-weight: 600;
+  margin: 0 0 4px;
+  letter-spacing: -0.01em;
+}
+.hero__role {
+  margin: 0 0 14px;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+/* ---- Social icons -------------------------------------------------- */
+.social {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 1.2rem;
+}
+.social a { color: var(--muted); transition: color .15s ease, transform .15s ease; }
+.social a:hover { color: var(--accent); transform: translateY(-2px); text-decoration: none; }
+.social__cv {
+  font-size: .82rem;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 3px 12px;
+  color: var(--text) !important;
+}
+.social__cv:hover { background: var(--accent-soft); border-color: var(--accent); }
+
+/* ---- Sections ------------------------------------------------------ */
+.section { margin-bottom: 52px; }
+.section__title {
+  font-size: .82rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--muted);
+  margin: 0 0 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.prose p { margin: 0 0 1em; }
+.prose p:last-child { margin-bottom: 0; }
+
+/* ---- Interest tags ------------------------------------------------- */
+.tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 22px 0 0;
+  padding: 0;
+}
+.tags li {
+  font-size: .85rem;
+  font-weight: 500;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 5px 12px;
+}
+
+/* ---- News ---------------------------------------------------------- */
+.news { list-style: none; margin: 0; padding: 0; }
+.news__item {
+  display: flex;
+  gap: 18px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+.news__item:last-child { border-bottom: none; }
+.news__date {
+  flex-shrink: 0;
+  width: 84px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  font-size: .92rem;
+  padding-top: 1px;
+}
+.news__body { margin: 0; }
+
+/* ---- Publications -------------------------------------------------- */
+.pubs { list-style: none; margin: 0; padding: 0; counter-reset: pub; }
+.pub {
+  position: relative;
+  padding: 18px 20px;
+  margin-bottom: 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color .15s ease, transform .15s ease, box-shadow .15s ease;
+}
+.pub:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+.pub__title { margin: 0 0 6px; font-weight: 600; }
+.pub__meta { margin: 0; font-size: .92rem; color: var(--muted); }
+.pub__authors { display: block; }
+.pub__venue { font-style: italic; }
+.pub__links {
+  margin: 10px 0 0;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.pub__links a {
+  font-size: .78rem;
+  font-weight: 600;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--accent);
+}
+.pub__links a:hover { background: var(--accent-soft); border-color: var(--accent); text-decoration: none; }
+.pubs__more { margin: 18px 0 0; font-size: .92rem; }
+
+/* ---- Footer -------------------------------------------------------- */
+.site-footer {
+  margin-top: 72px;
+  padding-top: 22px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: .85rem;
+  text-align: center;
+}
+.site-footer a { color: var(--muted); text-decoration: underline; }
+.site-footer a:hover { color: var(--accent); }
+
+/* ---- Responsive ---------------------------------------------------- */
+@media (max-width: 560px) {
+  .wrapper { padding: 48px 20px 72px; }
+  .hero { flex-direction: column; text-align: center; gap: 18px; }
+  .social { justify-content: center; }
+  .hero__photo { width: 116px; height: 116px; }
+  .hero__name { font-size: 1.8rem; }
+  .news__item { flex-direction: column; gap: 2px; }
+  .news__date { width: auto; }
+}

@@ -1,0 +1,46 @@
+# Add a publication by copying a block. Newest first.
+# Fields: title, authors, venue, year, and optional links (pdf, doi, code, html).
+# Wrap your own name in **double asterisks** to bold it.
+# Any link left blank is simply hidden.
+
+- title: "Dynamic AOIs: Automatic areas of interest for eye-tracking research"
+  authors: "**J. E. Prunty**, J. R. Keemink, D. J. Kelly"
+  venue: "Infancy"
+  year: 2023
+  links:
+    doi: https://onlinelibrary.wiley.com/doi/10.1111/infa.12426
+
+- title: "Ingroup and outgroup differences in face detection"
+  authors: "**J. E. Prunty**, R. Qarooni, M. Bindemann, R. Jenkins"
+  venue: "British Journal of Psychology"
+  year: 2023
+  links:
+    doi:
+
+- title: "Capacity limits in face detection"
+  authors: "**J. E. Prunty**, R. Qarooni, M. Bindemann, R. Jenkins"
+  venue: "Cognition"
+  year: 2022
+  links:
+    doi:
+
+- title: "Caucasian infants' attentional orienting to own- and other-race faces"
+  authors: "K. C. Jackson, J. R. Keemink, **J. E. Prunty**, D. J. Kelly"
+  venue: "Brain Sciences"
+  year: 2020
+  links:
+    doi:
+
+- title: "Conceptualizing and treating social anxiety in autism spectrum disorder"
+  authors: "D. Spain, F. Rumball, L. O'Neill, **J. E. Prunty**, J. Sin, F. Happé"
+  venue: "Journal of Applied Research in Intellectual Disabilities"
+  year: 2017
+  links:
+    doi:
+
+- title: "Family therapy for autism spectrum disorders"
+  authors: "D. Spain, J. Sin, E. Paliokosta, M. Furuta, **J. E. Prunty**, T. Chalder, F. G. Happé"
+  venue: "Cochrane Database of Systematic Reviews"
+  year: 2017
+  links:
+    doi:

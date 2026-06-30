@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+<header class="hero">
+  {% if site.photo %}
+  <img class="hero__photo" src="{{ site.photo | relative_url }}" alt="{{ site.name }}">
+  {% endif %}
+
+  <div class="hero__intro">
+    <h1 class="hero__name">{{ site.name }}</h1>
+    <p class="hero__role">{{ site.position }}{% if site.affiliation %} &middot; {{ site.affiliation }}{% endif %}</p>
+
+    <nav class="social" aria-label="Profile links">
+      {% if site.email %}<a href="mailto:{{ site.email }}" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>{% endif %}
+      {% if site.scholar %}<a href="{{ site.scholar }}" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener"><i class="fa-solid fa-graduation-cap"></i></a>{% endif %}
+      {% if site.orcid %}<a href="{{ site.orcid }}" title="ORCID" aria-label="ORCID" target="_blank" rel="noopener"><i class="fa-brands fa-orcid"></i></a>{% endif %}
+      {% if site.github %}<a href="{{ site.github }}" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>{% endif %}
+      {% if site.linkedin %}<a href="{{ site.linkedin }}" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>{% endif %}
+      {% if site.twitter %}<a href="{{ site.twitter }}" title="X / Twitter" aria-label="X / Twitter" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>{% endif %}
+      {% if site.cv %}<a class="social__cv" href="{{ site.cv | relative_url }}" target="_blank" rel="noopener">CV</a>{% endif %}
+    </nav>
+  </div>
+</header>
+
+<section class="section" id="about">
+  <h2 class="section__title">About</h2>
+  <div class="prose">{{ site.bio | markdownify }}</div>
+
+  {% if site.interests %}
+  <ul class="tags">
+    {% for interest in site.interests %}<li>{{ interest }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+</section>
+
+{% if site.data.news and site.data.news.size > 0 %}
+<section class="section" id="news">
+  <h2 class="section__title">News</h2>
+  <ul class="news">
+    {% for item in site.data.news %}
+    <li class="news__item">
+      <span class="news__date">{{ item.date }}</span>
+      <span class="news__body">{{ item.content | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if site.data.publications and site.data.publications.size > 0 %}
+<section class="section" id="publications">
+  <h2 class="section__title">Selected publications</h2>
+  <ol class="pubs">
+    {% for pub in site.data.publications %}
+    <li class="pub">
+      <p class="pub__title">{{ pub.title }}</p>
+      <p class="pub__meta">
+        <span class="pub__authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+        <span class="pub__venue">{{ pub.venue }}{% if pub.year %}, {{ pub.year }}{% endif %}</span>
+      </p>
+      {% if pub.links %}
+      <p class="pub__links">
+        {% if pub.links.pdf %}<a href="{{ pub.links.pdf }}" target="_blank" rel="noopener">PDF</a>{% endif %}
+        {% if pub.links.doi %}<a href="{{ pub.links.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+        {% if pub.links.html %}<a href="{{ pub.links.html }}" target="_blank" rel="noopener">HTML</a>{% endif %}
+        {% if pub.links.code %}<a href="{{ pub.links.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+      </p>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+  {% if site.scholar %}
+  <p class="pubs__more"><a href="{{ site.scholar }}" target="_blank" rel="noopener">Full list on Google Scholar &rarr;</a></p>
+  {% endif %}
+</section>
+{% endif %}

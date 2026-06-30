@@ -1,51 +1,60 @@
-## Developer Portfolio Landing Page Template
+# Personal website — Jonathan E. Prunty
 
-### Introduction
+Source for my personal academic site, built with [Jekyll](https://jekyllrb.com/)
+and hosted on GitHub Pages. Most content is data-driven, so day-to-day updates
+mean editing a few lines of YAML — no HTML required.
 
-Use this template if you need a quick developer / data science portfolio! Based on a Minimal Jekyll theme for GitHub Pages.
+## Where things live
 
-<img src="images/demo.gif?raw=true"/>
+| What you want to change            | File                       |
+| ---------------------------------- | -------------------------- |
+| Name, role, bio, social links, CV  | `_config.yml`              |
+| News items                         | `_data/news.yml`           |
+| Publications                       | `_data/publications.yml`   |
+| Colours, fonts, spacing            | `assets/css/main.css`      |
+| Page structure / layout            | `index.html`, `_layouts/default.html` |
+| Profile photo                      | `images/profilePic.png`    |
 
-### Installation
+### Add a news item
+Open `_data/news.yml` and copy a block to the top:
 
-See full step by step tutorial [on Medium](https://medium.com/@evanca/set-up-your-portfolio-website-in-less-than-10-minutes-with-github-pages-d0efa8ff56fd).
-___
-
-You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```yaml
+- date: Jun 2026
+  content: >-
+    Short update. **Markdown** and *italics* work here.
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Add a publication
+Open `_data/publications.yml` and copy a block to the top. Leave any link blank
+to hide it:
 
-### Roadmap
+```yaml
+- title: "Paper title"
+  authors: "A. Author, **J. E. Prunty**, B. Author"
+  venue: "Journal Name"
+  year: 2026
+  links:
+    doi: https://doi.org/...
+    pdf: /pdf/yourpaper.pdf
+    code: https://github.com/...
+```
 
-See the [open issues](https://github.com/evanca/quick-portfolio/issues) for a list of proposed features (and known issues).
-___
+### Recolour the site
+Edit the variables at the top of `assets/css/main.css` (e.g. `--accent`).
+A light and dark palette are defined; visitors get a toggle in the corner.
 
-### References
+## Preview locally (optional)
 
-[1] Jekyll theme "Minimal" for GitHub Pages: https://github.com/pages-themes/minimal (CC0 1.0 Universal License)
-<br>[2] Dummy photo via: https://pixabay.com/photos/man-male-adult-person-caucasian-1209494/ (Pixabay License)
-<br>[3] Dummy thumbnail image created by rawpixel.com: https://www.freepik.com/free-vector/set-elements-infographic_2807573.htm (Standard Freepik License)
+Requires Ruby. Then:
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+Open <http://localhost:4000>. Otherwise just push to `main` and GitHub Pages
+will build it automatically.
+
+---
+
+Originally forked from a minimal portfolio template; since rebuilt.

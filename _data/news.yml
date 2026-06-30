@@ -1,0 +1,16 @@
+# Add a news item by copying a block. Newest first.
+# date: free text (e.g. "Jun 2026"). content: Markdown allowed.
+
+- date: 2023
+  content: >-
+    New paper on **ingroup and outgroup differences in face detection**
+    published in the *British Journal of Psychology*.
+
+- date: 2023
+  content: >-
+    Released **Dynamic AOIs**, an automatic areas-of-interest tool for
+    eye-tracking research, in *Infancy*.
+
+- date: 2022
+  content: >-
+    Paper on **capacity limits in face detection** out now in *Cognition*.

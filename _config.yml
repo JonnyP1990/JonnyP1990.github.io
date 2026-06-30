@@ -1,19 +1,56 @@
-title: Jonathan E. Prunty # your name (or website title) here
-logo: "/images/profilePic.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  Cognitive Scientist<br>
-  Developmental psychology, social cognition, perception, and Autism Spectrum Disorder
-  <br><br>
-  Data Scientist<br>
-  Python, R and Matlab for machine learning, healthcare analytics, and research methods development
-  <br><br>
-  <a href="https://scholar.google.com/citations?user=ubmJ2nsAAAAJ&hl=en">Google Scholar</a> 
-  <br>
-  <a href="https://orcid.org/0000-0002-9180-1932">Orcid</a> 
-  <br>
-  <a href="https://www.linkedin.com/in/jonathan-prunty-22866aba/">LinkedIn</a> 
-  <br>
-  <a href="https://github.com/JonnyP1990">GitHub</a> 
-  <br><br><br>
-theme: jekyll-theme-minimal
+# --- Site identity ---------------------------------------------------------
+title: Jonathan E. Prunty
+name: Jonathan E. Prunty
+position: Cognitive Scientist
+affiliation: University of Cambridge
+description: >-
+  Cognitive scientist studying face perception, visual cognition,
+  and development.
+
+# Profile photo (lives in /images)
+photo: /images/profilePic.png
+
+# Optional CV / resume (lives in /pdf). Leave blank to hide the button.
+cv: # /pdf/your_cv.pdf
+
+# --- About / bio -----------------------------------------------------------
+# Written in Markdown. Edit freely.
+bio: >-
+  I am a cognitive scientist at the University of Cambridge. My research
+  examines how people detect and perceive faces, how visual attention is
+  deployed across the visual field, and how these abilities emerge over
+  development. I am also interested in social cognition and autism spectrum
+  conditions.
+
+
+  My work combines behavioural experiments, eye-tracking, and the development
+  of new research methods to understand the mechanisms of human perception.
+
+# Short list of research interests shown as tags
+interests:
+  - Face perception & detection
+  - Visual cognition & attention
+  - Infant & developmental cognition
+  - Social cognition
+  - Autism spectrum conditions
+  - Eye-tracking methods
+
+# --- Social / contact links ------------------------------------------------
+# Leave a value blank to hide that icon.
+email: # your.email@cam.ac.uk
+scholar: https://scholar.google.com/citations?user=ubmJ2nsAAAAJ&hl=en
+orcid: https://orcid.org/0000-0002-9180-1932
+linkedin: https://www.linkedin.com/in/jonathan-prunty-22866aba/
+github: https://github.com/JonnyP1990
+twitter: # https://twitter.com/yourhandle
+
+# --- Build settings --------------------------------------------------------
 google_analytics: G-L9GXXB3WDV
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - LICENSE
+  - sample_page.md
+  - vendor
