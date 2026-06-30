@@ -21,3 +21,10 @@
   year: 2026
   links:
     preprint: https://philpapers.org/rec/PACCLR
+
+- title: "Visual search paradigms reveal human-like signatures in multimodal large language models"
+  authors: "J. Burden, **J. E. Prunty**, B. Slater, M. Tehenan, G. Davis, L. G. Cheke"
+  venue: "Preprint"
+  year: 2025
+  links:
+    preprint: https://arxiv.org/abs/2510.19678

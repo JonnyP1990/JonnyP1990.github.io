@@ -17,13 +17,6 @@
   links:
     doi: https://doi.org/10.48550/arXiv.2603.23510
 
-- title: "Visual search paradigms reveal human-like signatures in multimodal large language models"
-  authors: "J. Burden, **J. E. Prunty**, B. Slater, M. Tehenan, G. Davis, L. G. Cheke"
-  venue: "arXiv preprint"
-  year: 2025
-  links:
-    doi: https://doi.org/10.48550/arXiv.2510.19678
-
 - title: "INTUIT: Investigating intuitive reasoning in humans and language models"
   authors: "**J. E. Prunty**, A. O'Flynn, P. Quinn, L. G. Cheke"
   venue: "Proceedings of the Cognitive Science Society (CogSci), Vol. 47"
