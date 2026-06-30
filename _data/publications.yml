@@ -13,7 +13,7 @@
 - title: "Visuospatial perspective taking in multimodal language models"
   authors: "**J. E. Prunty**, S. Zhang, P. Quinn, J. Lian, X. Xing, L. G. Cheke"
   venue: "Proceedings of the Cognitive Science Society (CogSci), accepted"
-  year: 2025
+  year: 2026
   links:
     doi: https://doi.org/10.48550/arXiv.2603.23510
 
@@ -22,7 +22,7 @@
   venue: "Proceedings of the Cognitive Science Society (CogSci), Vol. 47"
   year: 2025
   links:
-    doi:
+    doi: https://escholarship.org/uc/item/33z8g5dn
 
 - title: "A little less conversation, a little more action, please: Investigating the physical common-sense of LLMs in a 3D embodied environment"
   authors: "M. G. Mecattaf, B. Slater, M. Tešić, **J. E. Prunty**, K. Voudouris, L. G. Cheke"
@@ -115,9 +115,9 @@
   links:
     doi: https://doi.org/10.3390/brainsci10010053
 
-- title: "Face processing (in Encyclopedia of Infant and Early Childhood Development, 2nd ed.)"
+- title: "Face processing"
   authors: "O. Pascalis, M. Fort, **J. E. Prunty**, D. J. Kelly"
-  venue: "Elsevier"
+  venue: "Encyclopedia of Infant and Early Childhood Development, 2nd ed."
   year: 2020
   links:
     doi: https://doi.org/10.1016/B978-0-12-809324-5.23264-1
