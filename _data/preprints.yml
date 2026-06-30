@@ -1,0 +1,23 @@
+# Preprints / under review. Same format as publications.yml.
+# Newest first. Wrap your own name in **double asterisks** to bold it.
+
+- title: "Reverse Turing tests for human-machine task suitability assessments should be profile-driven"
+  authors: "**J. E. Prunty**, M. Tešić, J. Burden, B. Slater, Z. Tidler, P. Clothier, L. Sun, K. Collins, B. Gonçalves, G. Corsi, S. Ó hÉigeartaigh, L. G. Cheke, S. Cave, J. Hernández-Orallo"
+  venue: "Under review"
+  year: 2026
+  links:
+    preprint: https://philpapers.org/rec/PRURTT
+
+- title: "Capabilities ain't all you need: Measuring propensities in AI"
+  authors: "D. Romero-Alvarado, F. Martínez-Plumed, L. Pacchiardi, ..., **J. E. Prunty**, L. Sun, J. Hernández-Orallo"
+  venue: "Under review"
+  year: 2026
+  links:
+    preprint: https://arxiv.org/abs/2602.18182
+
+- title: "Continual learning requires evaluating trajectories"
+  authors: "L. Pacchiardi, ..., **J. E. Prunty**, ..., J. Hernández-Orallo"
+  venue: "Under review"
+  year: 2026
+  links:
+    preprint: https://philpapers.org/rec/PACCLR

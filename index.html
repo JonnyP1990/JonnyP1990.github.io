@@ -48,6 +48,32 @@ layout: default
 </section>
 {% endif %}
 
+{% if site.data.preprints and site.data.preprints.size > 0 %}
+<section class="section" id="preprints">
+  <h2 class="section__title">Preprints &amp; under review</h2>
+  <ol class="pubs">
+    {% for pub in site.data.preprints %}
+    <li class="pub">
+      <p class="pub__title">{{ pub.title }}</p>
+      <p class="pub__meta">
+        <span class="pub__authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+        <span class="pub__venue">{{ pub.venue }}{% if pub.year %}, {{ pub.year }}{% endif %}</span>
+      </p>
+      {% if pub.links %}
+      <p class="pub__links">
+        {% if pub.links.preprint %}<a href="{{ pub.links.preprint }}" target="_blank" rel="noopener">Preprint</a>{% endif %}
+        {% if pub.links.pdf %}<a href="{{ pub.links.pdf }}" target="_blank" rel="noopener">PDF</a>{% endif %}
+        {% if pub.links.doi %}<a href="{{ pub.links.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+        {% if pub.links.html %}<a href="{{ pub.links.html }}" target="_blank" rel="noopener">HTML</a>{% endif %}
+        {% if pub.links.code %}<a href="{{ pub.links.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+      </p>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}
+
 {% if site.data.publications and site.data.publications.size > 0 %}
 <section class="section" id="publications">
   <h2 class="section__title">Publications</h2>
@@ -61,6 +87,7 @@ layout: default
       </p>
       {% if pub.links %}
       <p class="pub__links">
+        {% if pub.links.preprint %}<a href="{{ pub.links.preprint }}" target="_blank" rel="noopener">Preprint</a>{% endif %}
         {% if pub.links.pdf %}<a href="{{ pub.links.pdf }}" target="_blank" rel="noopener">PDF</a>{% endif %}
         {% if pub.links.doi %}<a href="{{ pub.links.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
         {% if pub.links.html %}<a href="{{ pub.links.html }}" target="_blank" rel="noopener">HTML</a>{% endif %}
