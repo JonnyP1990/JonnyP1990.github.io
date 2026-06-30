@@ -2,42 +2,45 @@
 title: Jonathan E. Prunty
 name: Jonathan E. Prunty
 position: Cognitive Scientist
-affiliation: University of Cambridge
+affiliation: Centre for the Future of Intelligence, University of Cambridge
 description: >-
-  Cognitive scientist studying face perception, visual cognition,
-  and development.
+  Cognitive scientist at the University of Cambridge studying cognition in
+  humans and machines — face perception, development, and AI evaluation.
 
 # Profile photo (lives in /images)
 photo: /images/profilePic.png
 
 # Optional CV / resume (lives in /pdf). Leave blank to hide the button.
-cv: # /pdf/your_cv.pdf
+cv: /pdf/Jonathan_Prunty_CV.pdf
 
 # --- About / bio -----------------------------------------------------------
 # Written in Markdown. Edit freely.
 bio: >-
-  I am a cognitive scientist at the University of Cambridge. My research
-  examines how people detect and perceive faces, how visual attention is
-  deployed across the visual field, and how these abilities emerge over
-  development. I am also interested in social cognition and autism spectrum
-  conditions.
+  I am a cognitive scientist at the Centre for the Future of Intelligence,
+  University of Cambridge. I use the methods of experimental psychology to
+  understand cognition in both humans and machines — from how large language
+  and multimodal models reason, perceive, and can be rigorously evaluated, to
+  how people detect and perceive faces and how these abilities emerge in
+  infancy.
 
 
-  My work combines behavioural experiments, eye-tracking, and the development
-  of new research methods to understand the mechanisms of human perception.
+  Before joining Cambridge I completed a PhD in Developmental Psychology at the
+  University of Kent, studying face detection, visual attention, and infant
+  social cognition. My work combines behavioural experiments, eye-tracking, and
+  the development of new evaluation methods.
 
 # Short list of research interests shown as tags
 interests:
+  - AI evaluation
+  - Machine cognition & LLMs
   - Face perception & detection
   - Visual cognition & attention
   - Infant & developmental cognition
   - Social cognition
-  - Autism spectrum conditions
-  - Eye-tracking methods
 
 # --- Social / contact links ------------------------------------------------
 # Leave a value blank to hide that icon.
-email: # your.email@cam.ac.uk
+email: jep84@cam.ac.uk
 scholar: https://scholar.google.com/citations?user=ubmJ2nsAAAAJ&hl=en
 orcid: https://orcid.org/0000-0002-9180-1932
 linkedin: https://www.linkedin.com/in/jonathan-prunty-22866aba/

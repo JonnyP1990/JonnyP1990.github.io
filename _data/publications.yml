@@ -3,44 +3,142 @@
 # Wrap your own name in **double asterisks** to bold it.
 # Any link left blank is simply hidden.
 
-- title: "Dynamic AOIs: Automatic areas of interest for eye-tracking research"
-  authors: "**J. E. Prunty**, J. R. Keemink, D. J. Kelly"
-  venue: "Infancy"
-  year: 2023
+- title: "General scales unlock AI evaluation with explanatory and predictive power"
+  authors: "L. Zhou, L. Pacchiardi, ..., **J. E. Prunty**, ..., J. Hernández-Orallo"
+  venue: "Nature"
+  year: 2026
   links:
-    doi: https://onlinelibrary.wiley.com/doi/10.1111/infa.12426
+    doi: https://doi.org/10.1038/s41586-026-10303-2
 
-- title: "Ingroup and outgroup differences in face detection"
-  authors: "**J. E. Prunty**, R. Qarooni, M. Bindemann, R. Jenkins"
-  venue: "British Journal of Psychology"
-  year: 2023
+- title: "Visuospatial perspective taking in multimodal language models"
+  authors: "**J. E. Prunty**, S. Zhang, P. Quinn, J. Lian, X. Xing, L. G. Cheke"
+  venue: "Proceedings of the Cognitive Science Society (CogSci), accepted"
+  year: 2025
+  links:
+    doi: https://doi.org/10.48550/arXiv.2603.23510
+
+- title: "Visual search paradigms reveal human-like signatures in multimodal large language models"
+  authors: "J. Burden, **J. E. Prunty**, B. Slater, M. Tehenan, G. Davis, L. G. Cheke"
+  venue: "arXiv preprint"
+  year: 2025
+  links:
+    doi: https://doi.org/10.48550/arXiv.2510.19678
+
+- title: "INTUIT: Investigating intuitive reasoning in humans and language models"
+  authors: "**J. E. Prunty**, A. O'Flynn, P. Quinn, L. G. Cheke"
+  venue: "Proceedings of the Cognitive Science Society (CogSci), Vol. 47"
+  year: 2025
   links:
     doi:
 
+- title: "A little less conversation, a little more action, please: Investigating the physical common-sense of LLMs in a 3D embodied environment"
+  authors: "M. G. Mecattaf, B. Slater, M. Tešić, **J. E. Prunty**, K. Voudouris, L. G. Cheke"
+  venue: "PRICAI"
+  year: 2025
+  links:
+    doi: https://doi.org/10.1007/978-981-95-7078-2_18
+
+- title: "Effect of strengths-based care: Community led support"
+  authors: "**J. E. Prunty**, J. Zhang, M. Toma, R. Miller, J. E. Forder"
+  venue: "European Journal of Ageing"
+  year: 2025
+  links:
+    doi: https://doi.org/10.1007/s10433-025-00884-8
+
+- title: "Association between digital front doors and social care use for community-dwelling adults in England: Cross-sectional study"
+  authors: "J. Zhang, **J. E. Prunty**, A. C. Charles, J. E. Forder"
+  venue: "Journal of Medical Internet Research"
+  year: 2025
+  links:
+    doi: https://doi.org/10.2196/53205
+
+- title: "Face detection in contextual scenes"
+  authors: "**J. E. Prunty**, R. Jenkins, R. Qarooni, M. Bindemann"
+  venue: "PLOS ONE"
+  year: 2024
+  links:
+    doi: https://doi.org/10.1371/journal.pone.0304288
+
+- title: "A cognitive template for face detection"
+  authors: "**J. E. Prunty**, R. Jenkins, R. Qarooni, M. Bindemann"
+  venue: "Cognition"
+  year: 2024
+  links:
+    doi: https://doi.org/10.1016/j.cognition.2024.105792
+
+- title: "Understanding face detection with visual arrays and real-world scenes"
+  authors: "A. Nevard, G. Hole, **J. E. Prunty**, M. Bindemann"
+  venue: "Visual Cognition"
+  year: 2023
+  links:
+    doi: https://doi.org/10.1080/13506285.2023.2277475
+
+- title: "Facial comparison behaviour of forensic facial examiners"
+  authors: "J. Claydon, M. Fysh, **J. E. Prunty**, R. Moreton, M. Bindemann"
+  venue: "Applied Cognitive Psychology"
+  year: 2022
+  links:
+    doi: https://doi.org/10.1002/acp.4027
+
+- title: "Ingroup and outgroup differences in face detection"
+  authors: "**J. E. Prunty**, R. Jenkins, R. Qarooni, M. Bindemann"
+  venue: "British Journal of Psychology"
+  year: 2022
+  links:
+    doi: https://doi.org/10.1111/bjop.12588
+
 - title: "Capacity limits in face detection"
-  authors: "**J. E. Prunty**, R. Qarooni, M. Bindemann, R. Jenkins"
+  authors: "R. Qarooni, **J. E. Prunty**, M. Bindemann, R. Jenkins"
   venue: "Cognition"
   year: 2022
   links:
-    doi:
+    doi: https://doi.org/10.1016/j.cognition.2022.105227
+
+- title: "Infants show pupil dilatory responses to happy and angry facial expressions"
+  authors: "**J. E. Prunty**, J. R. Keemink, D. J. Kelly"
+  venue: "Developmental Science"
+  year: 2022
+  links:
+    doi: https://doi.org/10.1111/desc.13182
+
+- title: "Infants scan static and dynamic facial expressions differently"
+  authors: "**J. E. Prunty**, J. R. Keemink, D. J. Kelly"
+  venue: "Infancy"
+  year: 2021
+  links:
+    doi: https://doi.org/10.1111/infa.12426
+
+- title: "Eye movements and behavioural responses to gaze contingent expressive faces in typically-developing infants and infant siblings"
+  authors: "J. R. Keemink, A. Wood Jenner, **J. E. Prunty**, D. J. Kelly"
+  venue: "Autism Research"
+  year: 2021
+  links:
+    doi: https://doi.org/10.1002/aur.2432
 
 - title: "Caucasian infants' attentional orienting to own- and other-race faces"
-  authors: "K. C. Jackson, J. R. Keemink, **J. E. Prunty**, D. J. Kelly"
+  authors: "**J. E. Prunty**, K. Jackson, J. R. Keemink, D. J. Kelly"
   venue: "Brain Sciences"
   year: 2020
   links:
-    doi:
+    doi: https://doi.org/10.3390/brainsci10010053
 
-- title: "Conceptualizing and treating social anxiety in autism spectrum disorder"
-  authors: "D. Spain, F. Rumball, L. O'Neill, **J. E. Prunty**, J. Sin, F. Happé"
-  venue: "Journal of Applied Research in Intellectual Disabilities"
-  year: 2017
+- title: "Face processing (in Encyclopedia of Infant and Early Childhood Development, 2nd ed.)"
+  authors: "O. Pascalis, M. Fort, **J. E. Prunty**, D. J. Kelly"
+  venue: "Elsevier"
+  year: 2020
   links:
-    doi:
+    doi: https://doi.org/10.1016/B978-0-12-809324-5.23264-1
 
 - title: "Family therapy for autism spectrum disorders"
-  authors: "D. Spain, J. Sin, E. Paliokosta, M. Furuta, **J. E. Prunty**, T. Chalder, F. G. Happé"
+  authors: "D. Spain, J. Sin, E. Paliokosta, M. Furuta, **J. E. Prunty**, T. Chalder, D. G. Murphy, F. G. Happé"
   venue: "Cochrane Database of Systematic Reviews"
   year: 2017
   links:
-    doi:
+    doi: https://doi.org/10.1002/14651858.CD011894.pub2
+
+- title: "Conceptualizing and treating social anxiety in autism spectrum disorder: A focus group study with multidisciplinary professionals"
+  authors: "D. Spain, F. Rumball, L. O'Neill, J. Sin, **J. E. Prunty**, F. G. Happé"
+  venue: "Journal of Applied Research in Intellectual Disabilities"
+  year: 2016
+  links:
+    doi: https://doi.org/10.1111/jar.12320

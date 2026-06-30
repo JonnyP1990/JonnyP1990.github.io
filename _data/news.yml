@@ -1,16 +1,21 @@
 # Add a news item by copying a block. Newest first.
 # date: free text (e.g. "Jun 2026"). content: Markdown allowed.
 
-- date: 2023
+- date: 2026
   content: >-
-    New paper on **ingroup and outgroup differences in face detection**
-    published in the *British Journal of Psychology*.
+    Our paper **General scales unlock AI evaluation with explanatory and
+    predictive power** is published in *Nature*.
 
-- date: 2023
+- date: 2025
   content: >-
-    Released **Dynamic AOIs**, an automatic areas-of-interest tool for
-    eye-tracking research, in *Infancy*.
+    **Visuospatial perspective taking in multimodal language models** accepted
+    at the *Cognitive Science Society (CogSci)*.
 
-- date: 2022
+- date: 2025
   content: >-
-    Paper on **capacity limits in face detection** out now in *Cognition*.
+    Presented **INTUIT: Investigating intuitive reasoning in humans and language
+    models** at *CogSci* in San Francisco.
+
+- date: 2024
+  content: >-
+    New paper **A cognitive template for face detection** out in *Cognition*.
