@@ -2,7 +2,7 @@
 title: Jonathan E. Prunty
 name: Jonathan E. Prunty
 position: Cognitive Scientist
-affiliation: Centre for the Future of Intelligence, University of Cambridge
+affiliation: University of Cambridge
 # Optional link for the affiliation text (e.g. your institutional profile page)
 affiliation_url: https://www.lcfi.ac.uk/people/jonathan-prunty
 description: >-
@@ -18,13 +18,11 @@ cv: /pdf/Jonathan_Prunty_CV.pdf
 # --- About / bio -----------------------------------------------------------
 # Written in Markdown. Edit freely.
 bio: >-
-  I am a cognitive scientist at the Centre for the Future of Intelligence,
-  University of Cambridge. I use the methods of experimental psychology to
-  understand cognition in both humans and machines — from how large language
-  and multimodal models reason, perceive, and can be rigorously evaluated, to
-  how people detect and perceive faces and how these abilities emerge in
-  infancy.
-
+  I am a cognitive scientist at the Leverhulme Centre for the Future of
+  Intelligence, University of Cambridge, where I use methods from experimental
+  psychology to study cognition in both humans and machines. My recent work
+  focuses on how language and multimodal models perceive, represent, and
+  reason about physical and social environments.
 
   Before joining Cambridge I completed a PhD in Developmental Psychology at the
   University of Kent, studying face detection, visual attention, and infant
