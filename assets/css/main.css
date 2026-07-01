@@ -176,8 +176,8 @@ a:hover { text-decoration: underline; }
 .pubs { list-style: none; margin: 0; padding: 0; counter-reset: pub; }
 .pub {
   position: relative;
-  padding: 18px 20px;
-  margin-bottom: 14px;
+  padding: 12px 16px;
+  margin-bottom: 8px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -188,28 +188,28 @@ a:hover { text-decoration: underline; }
   transform: translateY(-2px);
   box-shadow: var(--shadow);
 }
-.pub__title { margin: 0 0 6px; font-weight: 600; }
-.pub__meta { margin: 0; font-size: .92rem; color: var(--muted); }
+.pub__title { margin: 0 0 3px; font-size: .95rem; font-weight: 600; line-height: 1.35; }
+.pub__meta { margin: 0; font-size: .82rem; line-height: 1.4; color: var(--muted); }
 .pub__authors { display: block; }
 .pub__venue { font-style: italic; }
 .pub__links {
-  margin: 10px 0 0;
+  margin: 8px 0 0;
   display: flex;
-  gap: 8px;
+  gap: 6px;
   flex-wrap: wrap;
 }
 .pub__links a {
-  font-size: .78rem;
+  font-size: .7rem;
   font-weight: 600;
   letter-spacing: .03em;
   text-transform: uppercase;
-  padding: 3px 10px;
+  padding: 2px 8px;
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 6px;
   color: var(--accent);
 }
 .pub__links a:hover { background: var(--accent-soft); border-color: var(--accent); text-decoration: none; }
-.pubs__more { margin: 18px 0 0; font-size: .92rem; }
+.pubs__more { margin: 14px 0 0; font-size: .85rem; }
 
 /* ---- Footer -------------------------------------------------------- */
 .site-footer {
