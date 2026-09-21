@@ -1,6 +1,13 @@
 # Preprints / under review. Same format as publications.yml.
 # Newest first. Wrap your own name in **double asterisks** to bold it.
 
+- title: "Using profiles of cognitive capability to assess AI suitability for workplace tasks"
+  authors: "**J. E. Prunty**, M. Tešić, P. Quinn,J. Hernández-Orallo, L. G. Cheke"
+  venue: "Preprint"
+  year: 2026
+  links:
+    preprint: https://arxiv.org/abs/2608.25623
+
 - title: "Reverse Turing tests for human-machine task suitability assessments should be profile-driven"
   authors: "**J. E. Prunty**, M. Tešić, J. Burden, B. Slater, Z. Tidler, P. Clothier, L. Sun, K. Collins, B. Gonçalves, G. Corsi, S. Ó hÉigeartaigh, L. G. Cheke, S. Cave, J. Hernández-Orallo"
   venue: "Preprint"

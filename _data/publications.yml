@@ -3,19 +3,19 @@
 # Wrap your own name in **double asterisks** to bold it.
 # Any link left blank is simply hidden.
 
+- title: "Visuospatial perspective taking in multimodal language models"
+  authors: "**J. E. Prunty**, S. Zhang, P. Quinn, J. Lian, X. Xing, L. G. Cheke"
+  venue: "Proceedings of the Cognitive Science Society (CogSci), Vol. 48"
+  year: 2026
+  links:
+    doi: https://escholarship.org/uc/item/2h60n3c7
+
 - title: "General scales unlock AI evaluation with explanatory and predictive power"
   authors: "L. Zhou, L. Pacchiardi, ..., **J. E. Prunty**, ..., J. Hernández-Orallo"
   venue: "Nature"
   year: 2026
   links:
     doi: https://doi.org/10.1038/s41586-026-10303-2
-
-- title: "Visuospatial perspective taking in multimodal language models"
-  authors: "**J. E. Prunty**, S. Zhang, P. Quinn, J. Lian, X. Xing, L. G. Cheke"
-  venue: "Proceedings of the Cognitive Science Society (CogSci), accepted"
-  year: 2026
-  links:
-    doi: https://doi.org/10.48550/arXiv.2603.23510
 
 - title: "INTUIT: Investigating intuitive reasoning in humans and language models"
   authors: "**J. E. Prunty**, A. O'Flynn, P. Quinn, L. G. Cheke"
